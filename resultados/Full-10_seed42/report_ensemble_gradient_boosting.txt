@@ -1,0 +1,18 @@
+                       precision    recall  f1-score   support
+
+         Cicadellidae       0.95      0.95      0.95      1723
+   Lycorma delicatula       0.92      0.93      0.92      1594
+              Miridae       0.94      0.93      0.93      1525
+               aphids       0.92      0.93      0.92      1229
+       blister beetle       0.82      0.78      0.80       570
+           corn borer       0.90      0.92      0.91       510
+         mole cricket       1.00      0.96      0.98       495
+       beet army worm       0.82      0.85      0.83       482
+legume blister beetle       0.76      0.80      0.78       423
+          Limacodidae       0.95      0.95      0.95       421
+
+             accuracy                           0.91      8972
+            macro avg       0.90      0.90      0.90      8972
+         weighted avg       0.92      0.91      0.91      8972
+
+Acc: 0.9146

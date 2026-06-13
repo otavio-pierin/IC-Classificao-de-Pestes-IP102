@@ -1,0 +1,55 @@
+                                 precision    recall  f1-score   support
+
+                         Thrips       0.38      0.42      0.40       264
+                           grub       0.74      0.91      0.82       258
+              rice water weevil       0.51      0.78      0.62       257
+              cabbage army worm       0.61      0.75      0.67       257
+                  black cutworm       0.48      0.85      0.61       257
+             brown plant hopper       0.51      0.75      0.61       251
+            tarnished plant bug       0.73      0.80      0.77       246
+     Scirtothrips dorsalis Hood       0.55      0.68      0.61       243
+                    flea beetle       0.81      0.93      0.87       237
+                    Ampelophaga       0.81      0.81      0.81       230
+        Icerya purchasi Maskell       0.82      0.84      0.83       217
+           bird cherry-oataphid       0.52      0.37      0.43       213
+      Trialeurodes vaporariorum       0.80      0.85      0.83       208
+                    peach borer       0.78      0.87      0.82       208
+       Aleurocanthus spiniferus       0.90      0.90      0.90       208
+              alfalfa plant bug       0.69      0.63      0.66       197
+            english grain aphid       0.57      0.46      0.51       197
+                   lytta polita       0.86      0.82      0.84       197
+        Lawana imitata Melichar       0.70      0.86      0.77       174
+            Potosiabre vitarsis       0.92      0.89      0.90       170
+     Rhytidodera bowrinii white       0.89      0.73      0.80       167
+       small brown plant hopper       0.54      0.36      0.43       166
+                     red spider       0.74      0.72      0.73       159
+                 alfalfa weevil       0.71      0.48      0.57       158
+                rice gall midge       0.60      0.78      0.68       152
+                   Dasineura sp       0.68      0.26      0.37       152
+              yellow rice borer       0.53      0.76      0.63       152
+                  large cutworm       0.42      0.13      0.20       148
+          rice leaf caterpillar       0.68      0.32      0.44       147
+      Salurnis marginella Guerr       0.87      0.63      0.73       147
+            wheat blossom midge       0.87      0.84      0.85       146
+                 yellow cutworm       0.62      0.22      0.32       144
+                 Pieris canidia       0.96      0.95      0.95       141
+          Sternochetus frigidus       0.72      0.51      0.60       138
+                 Papilio xuthus       0.98      0.96      0.97       135
+         Dacus dorsalis(Hendel)       0.67      0.72      0.70       132
+             Unaspis yanonensis       0.75      0.53      0.62       126
+                rice shell pest       0.45      0.30      0.36       123
+                rice leafhopper       0.86      0.61      0.71       122
+Phyllocnistis citrella Stainton       0.85      0.70      0.77       122
+  Tetradacus c Bactrocera minax       0.54      0.78      0.64       117
+       Panonchus citri McGregor       0.64      0.70      0.67       116
+               Apolygus lucorum       0.80      0.45      0.58       115
+                   Rice Stemfly       0.83      0.36      0.50       111
+              Viteus vitifoliae       0.72      0.59      0.65       107
+    Aphis citricola Vander Goot       0.51      0.77      0.61       106
+                   wheat sawfly       0.90      0.61      0.73       102
+
+                       accuracy                           0.68      8140
+                      macro avg       0.70      0.66      0.66      8140
+                   weighted avg       0.69      0.68      0.67      8140
+
+Acc: 0.6780

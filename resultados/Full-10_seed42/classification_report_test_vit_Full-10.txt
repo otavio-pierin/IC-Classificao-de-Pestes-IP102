@@ -1,0 +1,35 @@
+
+TEST. SET:
+
+Confusion matrix:
+[[1605   29   40   22    5    6    1    9    2    4]
+ [  24 1484   12   19   11    6    6   20    5    7]
+ [  26   25 1399   37   22    1    1   12    1    1]
+ [  17   23   46 1118    3    8    0   11    0    3]
+ [   4   15   25    4  437    3    4    3   75    0]
+ [   7   17    3    4    0  456    1   21    0    1]
+ [   1    9    6    0    2    0  477    0    0    0]
+ [   3   20    2   13    2   29    0  410    0    3]
+ [   1   14    2    4   53    0    2   11  336    0]
+ [   4   17    3    6    0    3    0    4    0  384]]
+
+Classification report:
+                       precision    recall  f1-score   support
+
+         Cicadellidae     0.9486    0.9315    0.9400      1723
+   Lycorma delicatula     0.8978    0.9310    0.9141      1594
+              Miridae     0.9096    0.9174    0.9135      1525
+               aphids     0.9112    0.9097    0.9104      1229
+       blister beetle     0.8168    0.7667    0.7910       570
+           corn borer     0.8906    0.8941    0.8924       510
+         mole cricket     0.9695    0.9636    0.9666       495
+       beet army worm     0.8184    0.8506    0.8342       482
+legume blister beetle     0.8019    0.7943    0.7981       423
+          Limacodidae     0.9529    0.9121    0.9320       421
+
+             accuracy                         0.9035      8972
+            macro avg     0.8917    0.8871    0.8892      8972
+         weighted avg     0.9036    0.9035    0.9034      8972
+
+
+Accuracy:	 0.9035

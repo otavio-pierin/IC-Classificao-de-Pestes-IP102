@@ -1,0 +1,28 @@
+                           precision    recall  f1-score   support
+
+             Cicadellidae       0.93      0.92      0.92      1723
+       Lycorma delicatula       0.90      0.93      0.92      1594
+                  Miridae       0.93      0.94      0.94      1525
+                   aphids       0.91      0.93      0.92      1229
+           blister beetle       0.86      0.78      0.82       570
+               corn borer       0.78      0.83      0.81       510
+             mole cricket       0.98      0.98      0.98       495
+           beet army worm       0.68      0.74      0.71       482
+    legume blister beetle       0.82      0.80      0.81       423
+              Limacodidae       0.95      0.94      0.95       421
+              Locustoidea       0.97      0.94      0.95       419
+          Prodenia litura       0.75      0.77      0.76       392
+        Cicadella viridis       0.83      0.84      0.84       384
+              Xylotrechus       0.95      0.92      0.94       345
+         rice leaf roller       0.90      0.89      0.89       335
+                army worm       0.75      0.65      0.70       322
+             flax budworm       0.56      0.55      0.55       320
+       asiatic rice borer       0.77      0.74      0.76       316
+white backed plant hopper       0.88      0.83      0.86       268
+                 wireworm       0.89      0.92      0.90       267
+
+                 accuracy                           0.88     12340
+                macro avg       0.85      0.84      0.85     12340
+             weighted avg       0.88      0.88      0.88     12340
+
+Acc: 0.8763

@@ -1,0 +1,79 @@
+,Acurácia,,,,
+",""Modelos: ViT, Resnet50, MobileNet_v3, Efficientb7"",,,,"
+Classificador,Full,Full-20,Mid-20,,
+"Bagging,""0,71"",""0,85"",""0,75"",,"
+"Gradient Boosting,""0,21"",""0,85"",""0,74"",,"
+"Random Forest,""0,7"",""0,86"",""0,75"",,"
+"Stacking,""0,72"",""0,86"",""0,76"",,"
+"Hard Voting,""0,66"",""0,84"",""0,68"",,"
+"Soft Voting,""0,71"",""0,85"",""0,75"",,"
+,,,,,
+,Macro avg,,,,
+",""Modelos: ViT, Resnet50, MobileNet_v3, Efficientb7"",,,,"
+Classificador,Full,Full-20,Mid-20,,
+"Bagging,""0,61"",""0,82"",""0,75"",,"
+"Gradient Boosting,""0,16"",""0,81"",""0,73"",,"
+"Random Forest,""0,57"",""0,83"",""0,74"",,"
+"Stacking,""0,61"",""0,83"",""0,75"",,"
+"Hard Voting,""0,52"",""0,79"",""0,66"",,"
+"Soft Voting,""0,6"",""0,81"",""0,74"",,"
+,,,,,
+,Acurácia,,,,
+",""Modelos: ViT, Convnext_tiny"",,,,"
+Classificador,Full,Full-20,Mid-20,,
+"Bagging,""0,73"",""0,87"",""0,76"",,"
+"Gradient Boosting,""0,86"",""0,86"",""0,75"",,"
+"Random Forest,""0,73"",""0,87"",""0,77"",,"
+"Stacking,""0,74"",""0,88"",""0,77"",,"
+"Hard Voting,""0,73"",""0,86"",""0,76"",,"
+"Soft Voting,""0,74"",""0,88"",""0,78"",,"
+,,,,,
+,Macro avg,,,,
+",""Modelos: ViT, Convnext_tiny"",,,,"
+Classificador,Full,Full-20,Mid-20,,
+"Bagging,""0,63"",""0,84"",""0,75"",,"
+"Gradient Boosting,""0,82"",""0,83"",""0,74"",,"
+"Random Forest,""0,63"",""0,84"",""0,77"",,"
+"Stacking,""0,65"",""0,85"",""0,77"",,"
+"Hard Voting,""0,64"",""0,83"",""0,75"",,"
+"Soft Voting,""0,76"",""0,85"",""0,77"",,"
+,,,,,
+Full: Todas as amostras (102 classes),,,,,
+Full-20: 20 mais frequentes,,,,,
+Full-10: 10 mais frequentes,,,,,
+Mid-20: Menos frequentes, com mais de 200 amostras e excluindo Full-20 (47 classes),,,,,
+Mid-10: Menos frequentes, com mais de 200 amostras e excluindo Full-10 (57 classes),,,,,
+,,,,,
+Bagging: múltiplos modelos com amostras levemente diferentes,,,,,
+Gradient Boosting: Treinamento sequencial,,,,,
+Random Forest: Regras não-lineares complexas,,,,,
+Stacking: Regressão Logística,,,,,
+Hard Voting: votação,,,,,
+Soft Voting: Média aritmética,,,,,
+,,,,,
+,Acurácia Individual,,,,
+Modelo,Full,Full-20,Full-10,Mid-10,Mid-20
+"ViT,""0,71"",""0,85"",""0,9"",""0,73"",""0,75"""
+"Resnet50,""0,62"",""0,78"",""0,89"",""0,62"",""0,63"""
+"Efficientnetb7,""0,54"",""0,77"",""0,87"",""0,55"",""0,6"""
+"MobileNet_v3,""0,56"",""0,75"",""0,83"",""0,55"",""0,55"""
+"Convnext_tiny,""0,73"",""0,87"",""0,92"",""0,74"",""0,75"""
+,,,,,
+,,,,,
+Tabela Comparativa,,,,,
+Link,Nome,Modelo,Acurácia (%),,
+https://link.springer.com/chapter/10.1007/978-981-95-3355-8_4#Abs1,Nguyen et al.,EfficientNetV2-M,69.91,,
+https://www.sciencedirect.com/science/article/pii/S0168169920317737,Ayan et al.,GAEnsemble,67.13,,
+https://link.springer.com/chapter/10.1007/978-981-95-3355-8_4#Abs1,Nguyen et al.,VGG16,59.16,,
+https://www.mdpi.com/2073-4395/13/6/1583,Zhang et al.,C3M,57.4,,
+https://openaccess.thecvf.com/content_CVPRW_2020/html/w5/Bollis_Weakly_Supervised_Learning_Guided_by_Activation_Mapping_Applied_to_a_CVPRW_2020_paper.html,Bollis et al.,MIL-Guided,69.5,,
+https://www.sciencedirect.com/science/article/pii/S0168169922001569,Bollis et al.,Attention-based MIL-Guided,68.3,,
+https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2021.671134/full,Yang et al.,CRN,70.4,,
+"https://www.sciencedirect.com/science/article/pii/S0952197623007479#d1e1678,""Wang et al.,"",FNSTC ,71.6,,"
+https://link.springer.com/article/10.1007/s11760-026-05292-8#data-availability,Wang et al.,RepMSNet,72.0,,
+https://www.sciencedirect.com/science/article/pii/S095070512600122X?via%3Dihub,Verma e Parganiha,Qug-DViT(proporção diferente),98.84,,
+https://ieeexplore.ieee.org/document/10256176,Qayyum et al,Faster-PestNet,82.53,,
+https://doi.org/10.3390/app15137610,Dinca et al.,ViT Ensemble,83.71,,
+https://doi.org/10.1016/j.procs.2023.01.208,Anwar e Masood,Ensemble + Transfer Learning,82.5,,
+https://www.sciencedirect.com/science/article/pii/S157495412100306X,Nanni et al.,Ensemble + Adam Optimization,73.46,,
+-,Nosso trabalho,ViT + ConvNext Tiny,86.00,,

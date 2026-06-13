@@ -1,0 +1,14 @@
+# =============================================================
+# .gitignore
+# =============================================================
+
+# Arquivos de ambiente (NUNCA enviar para o repositório)
+# Ignorar arquivos de pesos de modelos e datasets pesados
+*.pt
+*.pth
+*.zip
+*.tar.gz
+.pt
+.pth
+.zip
+.tar.gz

@@ -1,0 +1,79 @@
+
+TEST. SET:
+
+Confusion matrix:
+[[391   3   0 ...   0   0   0]
+ [  1 282   0 ...   1   0   0]
+ [  1   2 348 ...   0   0   0]
+ ...
+ [  0   1   0 ...  82   1   1]
+ [  0   0   0 ...   2  81   0]
+ [  0   0   0 ...   0   0  83]]
+
+Classification report:
+                                 precision    recall  f1-score   support
+
+                    Locustoidea     0.9243    0.9332    0.9287       419
+                Prodenia litura     0.6620    0.7194    0.6895       392
+              Cicadella viridis     0.9380    0.9062    0.9219       384
+                    Xylotrechus     0.8883    0.8986    0.8934       345
+               rice leaf roller     0.6706    0.8448    0.7477       335
+                      army worm     0.6471    0.6149    0.6306       322
+                   flax budworm     0.4802    0.5312    0.5045       320
+             asiatic rice borer     0.6036    0.6361    0.6194       316
+      white backed plant hopper     0.4768    0.5746    0.5212       268
+                       wireworm     0.8000    0.8839    0.8399       267
+                         Thrips     0.5745    0.5985    0.5863       264
+                           grub     0.8815    0.9225    0.9015       258
+              rice water weevil     0.7640    0.7432    0.7535       257
+              cabbage army worm     0.5774    0.5370    0.5565       257
+                  black cutworm     0.5929    0.6459    0.6182       257
+             brown plant hopper     0.6028    0.5139    0.5548       251
+            tarnished plant bug     0.7170    0.7724    0.7436       246
+     Scirtothrips dorsalis Hood     0.7333    0.7243    0.7288       243
+                    flea beetle     0.9057    0.9325    0.9189       237
+                    Ampelophaga     0.8517    0.7739    0.8109       230
+        Icerya purchasi Maskell     0.9020    0.8479    0.8741       217
+           bird cherry-oataphid     0.6033    0.5211    0.5592       213
+      Trialeurodes vaporariorum     0.8685    0.8894    0.8789       208
+                    peach borer     0.7928    0.8462    0.8186       208
+       Aleurocanthus spiniferus     0.8807    0.9231    0.9014       208
+              alfalfa plant bug     0.6275    0.6497    0.6384       197
+            english grain aphid     0.5309    0.5228    0.5269       197
+                   lytta polita     0.8646    0.8426    0.8535       197
+        Lawana imitata Melichar     0.8226    0.8793    0.8500       174
+            Potosiabre vitarsis     0.9231    0.9176    0.9204       170
+     Rhytidodera bowrinii white     0.7986    0.6886    0.7395       167
+       small brown plant hopper     0.5547    0.4277    0.4830       166
+                     red spider     0.7342    0.7296    0.7319       159
+                 alfalfa weevil     0.6968    0.6835    0.6901       158
+                rice gall midge     0.8444    0.7500    0.7944       152
+                   Dasineura sp     0.6376    0.6250    0.6312       152
+              yellow rice borer     0.7000    0.6447    0.6712       152
+                  large cutworm     0.3197    0.2635    0.2889       148
+          rice leaf caterpillar     0.4430    0.4490    0.4459       147
+      Salurnis marginella Guerr     0.8345    0.8231    0.8288       147
+            wheat blossom midge     0.8758    0.9658    0.9186       146
+                 yellow cutworm     0.3511    0.3194    0.3345       144
+                 Pieris canidia     0.9643    0.9574    0.9609       141
+          Sternochetus frigidus     0.7518    0.7464    0.7491       138
+                 Papilio xuthus     0.9565    0.9778    0.9670       135
+         Dacus dorsalis(Hendel)     0.7535    0.8106    0.7810       132
+             Unaspis yanonensis     0.8182    0.7857    0.8016       126
+                rice shell pest     0.5600    0.2276    0.3237       123
+                rice leafhopper     0.6392    0.5082    0.5662       122
+Phyllocnistis citrella Stainton     0.8235    0.8033    0.8133       122
+  Tetradacus c Bactrocera minax     0.8500    0.7265    0.7834       117
+       Panonchus citri McGregor     0.6800    0.7328    0.7054       116
+               Apolygus lucorum     0.6961    0.6174    0.6544       115
+                   Rice Stemfly     0.7018    0.7207    0.7111       111
+              Viteus vitifoliae     0.6949    0.7664    0.7289       107
+    Aphis citricola Vander Goot     0.6807    0.7642    0.7200       106
+                   wheat sawfly     0.8737    0.8137    0.8426       102
+
+                       accuracy                         0.7276     11508
+                      macro avg     0.7253    0.7171    0.7186     11508
+                   weighted avg     0.7268    0.7276    0.7251     11508
+
+
+Accuracy:	 0.7276
